@@ -305,16 +305,16 @@ ${bold_style}# Reversed${rst_color}
 
 ${bold_style}# Use cases (examples)${rst_color}
 
-| Log Level         | Role                                             | ANSI Color   | Style     |
-| ----------------- | ------------------------------------------------ | ------------ | --------- |
-| \e[2;36mDEBUG${rst_color}             | \e[2;36mVery detailed messages for debugging${rst_color}            | \e[36mCyan${rst_color}         | \e[2mFaint${rst_color}     |
-| \e[32mINFO${rst_color}              | \e[32Normal informative messages (main flow)${rst_color}    | \e[32mGreen${rst_color}        | Normal    |
+| Log Level         | Role                                          | ANSI Color   | Style     |
+| ----------------- | ----------------------------------------------| ------------ | --------- |
+| \e[2;36mDEBUG${rst_color}             | \e[2;36mVery detailed messages for debugging${rst_color}          | \e[36mCyan${rst_color}         | \e[2mFaint${rst_color}     |
+| \e[32mINFO${rst_color}              | \e[32Normal informative messages (main flow)${rst_color}        | \e[32mGreen${rst_color}        | Normal    |
 | \e[33mWARNING${rst_color}           | \e[33mAlerts that deserve attention${rst_color}                 | \e[33mYellow${rst_color}       | Normal    |
 | \e[31mERROR${rst_color}             | \e[31mImportant errors${rst_color}                              | \e[31mRed${rst_color}          | Normal    |
-| \e[1;91mCRITICAL${rst_color}          | \e[1;91mSevere errors requiring immediate action${rst_color}  | \e[91mLight red${rst_color}    | \e[1mBold${rst_color}      |
-| \e[1;92mSUCCESS${rst_color}           | \e[1;92mNotable successes${rst_color}                                  | \e[92mLight green${rst_color}  | \e[1mBold${rst_color}      |
-| \e[34mINPUT/USER ACTION${rst_color} | \e[34mIndicates a required user action${rst_color}           | \e[34mBlue${rst_color}         | Normal    |
-| \e[95mBANNER${rst_color}            | \e[95mTitles or important sections${rst_color}                   | \e[95mLight Purple${rst_color} | Normal    |
+| \e[1;91mCRITICAL${rst_color}          | \e[1;91mSevere errors requiring immediate action${rst_color}      | \e[91mLight red${rst_color}    | \e[1mBold${rst_color}      |
+| \e[1;92mSUCCESS${rst_color}           | \e[1;92mNotable successes${rst_color}                             | \e[92mLight green${rst_color}  | \e[1mBold${rst_color}      |
+| \e[34mINPUT/USER ACTION${rst_color} | \e[34mIndicates a required user action${rst_color}              | \e[34mBlue${rst_color}         | Normal    |
+| \e[95mBANNER${rst_color}            | \e[95mTitles or important sections${rst_color}                  | \e[95mLight Purple${rst_color} | Normal    |
 
 "
 }
